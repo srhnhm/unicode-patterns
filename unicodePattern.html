@@ -1,0 +1,117 @@
+<html>
+	<head>
+		
+		<title>unicode::patterns</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="styles.css"></link>
+
+	</head>
+
+	<body>
+		<div id="canvas">
+		</div>			
+
+
+
+
+		<div id="legend">
+			<a href="#"><h1>UNICODE</h1>
+			<h3><span style="float:left">◤</span>
+			PATTERNS 
+			<span style="float:right">◢</span></h3></a>
+			<hr/>
+			
+			<div class="palette char ">◤</div>
+			<div class="palette char ">◥</div>
+			<div class="palette char ">◢</div>
+			<div class="palette char ">◣</div>
+
+			<div class="palette char">█</div>
+			<div class="palette char">░</div>
+			<div class="palette char">▒</div>
+			<div class="palette char">▓</div>
+
+			<div class="palette char">▌</div>
+			<div class="palette char">▐</div>
+			<div class="palette char">▄</div>
+			<div class="palette char">▀</div>
+
+			<div class="palette char">▘</div>
+			<div class="palette char">▝</div>
+			<div class="palette char">▗</div>
+			<div class="palette char">▖</div>
+
+			<div class="palette char">▟</div>
+			<div class="palette char">▞</div>
+			<div class="palette char">▚</div>
+			<div class="palette char">▛</div>
+			
+
+			<div class="palette char">◐</div>				
+			<div class="palette char">◑</div>
+			<div class="palette char">◒</div>
+			<div class="palette char">◓</div>
+
+			<div class="palette char">▶</div>
+			<div class="palette char">▲</div>
+			<div class="palette char">◀</div>
+			<div class="palette char">▼</div>
+
+			<hr/>
+
+			<div class="colorpalette selected">000000 4d4d4d 8e8e8e cccccc ffffff</div>
+			<div class="colorpalette">009eef e61484 ffe700 292d29 ccc</div>
+			<div class="colorpalette">BCBDAC CFBE27 F27435 F02475 3B2D38</div>
+			<div class="colorpalette">554236 F77825 D3CE3D F1EFA5 60B99A</div>
+
+			<div class="colorpalette">80FFFE EF9B7B 9495a8 d4ffaa c2c9ed</div>
+			<div class="colorpalette">C3CBC5 949E96 626A69 545E63 414343</div>
+			<div class="colorpalette">EEE6AB C5BC8E 696758 45484B 36393B</div>
+	
+			<div class="colorpalette">F7F9FE ECF1F2 DCE8EB CBDBE0 BED2D9</div>
+	
+
+			<hr/>
+
+
+			<!-- <div class="scale" id="size">Size: <div class="scale-bottom"><div class="scale-top"></div></div></div> -->
+			
+			<div class='input'>
+				<label>Font size: </label>
+				<input id="size" type='text'/>
+			</div>
+			<div class='input'>sizes smaller than 20 will require patience</div>
+			
+			<hr/>
+
+			<div class='input'>
+				<label>Distortion: </label>
+				<input id="distortion" type='text'/>
+			</div>
+			<div class='input'>nice in the range of [0:10]</div>
+			<hr/>
+			<button id="reset">Generate</button>
+			<button id="getUrl"><div>✂</div></button>
+			<!-- <div id="getUrl">Get unique URL</div> -->
+		</div>	
+
+		<div id="popup" class="hidden">
+			<div class="close">close</div>
+			<div>Revisit your pattern at this url:</div>
+			<div>
+				<input id="urlSpot"></input>
+				<!-- <button id="urlCopy">Copy</button> -->
+			</div>
+			<div>You can also select and copy text from the website directly. Pastes ok into email.</div>
+		</div>
+
+
+		<script type="text/javascript" src="custom.js"></script>
+
+	
+	</body>
+
+</html>
